@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+
+
+
+/*colors*/
+
+a.non-decoration:hover, a.non-decoration:focus {
+    text-decoration: none;
+}
+
+a.default-link:hover, a.default-link:active {
+    color: inherit!important;
+}
+
+.primary, .primary .dropdown-menu {
+    background-color: #0079c1;
+    color: white!important;
+
+}
+
+.primary a {
+    color: white!important;
+}
+
+a, .primary-text {
+    color: #0079c1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.raion_list > a {
+    border-radius: 0!important;
+    border: none!important;
+}
+
+.menu-list {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+.menu-list a.active,
+.menu-list li:hover {
+    background-color: #0079c1;
+    color: white;
+}
+
+.address-block {
+    background-color: #0079c1;
+    color: white;
+}
+
+.menu-list a {
+    width: 100%;
+    display: block;
+    padding: 10px 20px;
+    text-align: left;
+}
+
+
+
+
+
+
+/*geography*/
+
+.address-block {
+    max-height: 400px;
+    padding: 15px;
+    overflow-x: hidden;
+    overflow-y: auto;
+	font-family: arial, Corbel, "Libre Franklin", "Helvetica Neue", helvetica,  sans-serif;
+}
+
+.address-block h2 {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.address-block h2:not(:first-child) {
+    border-top: 1px solid #0079c1;
+    padding-top: 15px;
+}
+
+
+
+
+.vmap path {
+    stroke-width: 8px;
+}
+
+
+.vmap path:not([disabled]):not(.active):hover {
+    stroke: #0079c1!important;
+}
+
+.vmap path.active:not([disabled]) {
+    fill: #0079c1!important;
+    stroke: #fff;
+}
+
+.vmap #jqvmap8_nazranovsky {
+    fill: #598dcb;
+}
+
+.vmap path#jqvmap8_sunzhensky{
+    fill: #6da5dc;
+}
+
+.vmap path#jqvmap8_malgobeksky{
+    fill: #87b8e0;
+}
+
+.vmap path#jqvmap8_dzheyrakhsky {
+    fill: #9ec4de;
+}
+
+
+
